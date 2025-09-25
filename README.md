@@ -17,6 +17,20 @@
 - [Notes](#-notes)
 
 ---
+## 🚀 Usage (Quick Start)
+
+Run the following commands step by step:
+
+```bash
+# 1. Create the cluster
+kind create cluster --config kind-config.yaml --name tws-kind-cluster
+
+# 2. Verify the nodes
+kubectl get nodes
+
+# 3. Check cluster info
+kubectl cluster-info
+
 
 ## 📌 Overview
 This repository shows how to **create and manage a local Kubernetes cluster** using  
