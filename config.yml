@@ -17,3 +17,7 @@ nodes:
         protocol: TCP
   - role: worker
     image: kindest/node:v1.33.1
+   ## extraPortMappings:
+     ## - containerPort: 8080
+        ##hostPort: 8080
+        ##protocol: TCP
