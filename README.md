@@ -18,6 +18,19 @@
 
 ---
 ## 🚀 Usage (Quick Start)
+Firstly we need to run these commad for installation of kind 
+ 1. Give a permission to file for read write 
+```
+chmod +x install-kind.sh
+```
+ 2. Run the commad for exicute the file 
+ ```
+ ./install-kind.sh 
+```
+ 3. After exicute run the command for docker usermod set up and new grp creation
+ ```
+ sudo usermod -aG docker $USER & newgrp docker
+ ```
 
 Run the following commands step by step:
 
