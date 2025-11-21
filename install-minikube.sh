@@ -34,3 +34,4 @@ kubectl get nodes
 
 echo "🎉 Installation Completed Successfully!"
 echo "➡ You may need to logout/login for Docker permissions to apply"
+echo "➡ Your minikube cluster is up and running!"
